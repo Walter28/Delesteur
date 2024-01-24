@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="317dp"
+                android:layout_height="123dp"
+                android:layout_marginHorizontal="40sp"
+                android:layout_marginTop="60sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="sans-serif-light"
+                android:text="Control and manage energy consumption at home"
+                android:textColor="@color/wlcm_title"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                app:srcCompat="@drawable/ggroup116" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="340dp"
+                android:layout_height="74dp"
+                android:layout_marginHorizontal="25sp"
+                android:layout_marginVertical="20sp"
+                android:text="We want you  to feel better  and use your energy as you want "
+                android:textColor="@color/wlcm_p"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/started_btn"
+                android:layout_width="341dp"
+                android:layout_height="79dp"
+                android:layout_marginHorizontal="20sp"
+                android:backgroundTint="#FEFAFD"
+                android:src="@drawable/fframe9"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

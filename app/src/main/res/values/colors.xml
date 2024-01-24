@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#539DF3</color>
+    <color name="wlcm_title">#5E6877</color>
+    <color name="wlcm_p">#616161</color>
+    <color name="red">#FF4949</color>
+    <color name="parrent_body">#F5F6F7</color>>
+
+</resources>
